@@ -1,0 +1,17 @@
+{
+  "name": "treehouse_bootstrap4",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 tutorial materials for Treehouse",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

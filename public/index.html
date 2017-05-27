@@ -5,10 +5,8 @@
     <title>Full Stack Conf</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
   </head>
   <body>
     <!-- navbar -->
@@ -37,7 +35,7 @@
         <p class="lead">A One-day Conference About All Things JavaScript!</p>
 
         <div class="btn-group mt-4" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
           <a class="btn btn-secondary btn-lg" href="#speakers">See Speakers</a>
         </div>
       </div>
@@ -194,7 +192,7 @@
       <!-- /schedule -->
 
       <!-- callout button -->
-      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 
       <!-- signup form -->
       <hr>
@@ -252,6 +250,29 @@
 
     </div>
     <!-- /container -->
+
+    <!--=========================
+      FORM MODAL
+    =========================-->
+    <div class="modal fade" id="register">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register for Full Stack Conf</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>FORM GOES HERE</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div> <!-- /.modal-content -->
+      </div> <!-- /.modal-dialog -->
+    </div> <!-- /.modal -->
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
